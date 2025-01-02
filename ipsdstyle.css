@@ -1,0 +1,73 @@
+/* Gaya untuk seluruh body halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;  /* Warna latar belakang */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Gaya untuk judul utama halaman */
+h1 {
+    text-align: center;
+    color: #4CAF50;  /* Warna hijau untuk judul */
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+/* Gaya untuk deskripsi tanggal */
+p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Kontainer utama untuk konten */
+.content {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* Gaya untuk setiap aktivitas */
+.activity {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Gaya untuk setiap subjudul aktivitas */
+.activity h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk teks deskripsi */
+.activity p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Gaya untuk gambar */
+.activity img {
+    width: 100%; /* Mengatur gambar agar menyesuaikan ukuran kontainer */
+    max-width: 600px; /* Maksimal lebar gambar */
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid #ddd; /* Memberikan border tipis pada gambar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan bayangan halus pada gambar */
+}
+
+/* Gaya untuk memastikan konten terakhir tidak memiliki border bawah */
+.activity:last-child {
+    border-bottom: none;
+}
